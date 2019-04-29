@@ -16,7 +16,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Hail\\Util": "src/"
+      "Hail\\Util\\": "src/"
     }
   },
   "license": "MIT",
