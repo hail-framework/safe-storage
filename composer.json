@@ -1,0 +1,32 @@
+{
+  "name": "hail/safe-storage",
+  "description": "Store data safely in memory at runtime",
+  "type": "library",
+  "keywords": ["hail", "framework", "SafeStorage"],
+  "homepage": "http://framework.flyinghail.com/",
+  "support": {
+    "issues": "https://github.com/hail-framework/safe-storage/issues",
+    "source": "https://github.com/hail-framework/safe-storage"
+  },
+  "authors": [
+    {
+      "name": "FlyingHail",
+      "email": "flyinghail@msn.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hail\\Util": "src/"
+    }
+  },
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/hail-framework/safe-storage.git"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3"
+  }
+}
