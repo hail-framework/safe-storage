@@ -4,9 +4,11 @@ Store data safely in memory at runtime
 # Example
 
 ```php
+use Hail\SafeStorage\SafeStorageTrait;
+
 class Example
 {
-    use Hail\Util\SafeStorageTrait;
+    use SafeStorageTrait;
     
     public function __construct(string $password)
     {

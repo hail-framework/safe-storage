@@ -3,7 +3,7 @@
  * Inspired by flysystem <https://github.com/thephpleague/flysystem/blob/master/src/SafeStorage.php>
  */
 
-namespace Hail\Util;
+namespace Hail\SafeStorage;
 
 final class SafeStorage
 {

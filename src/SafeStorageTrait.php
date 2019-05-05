@@ -1,6 +1,6 @@
 <?php
 
-namespace Hail\Util;
+namespace Hail\SafeStorage;
 
 
 trait SafeStorageTrait
